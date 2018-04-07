@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "628278228628",
+    "firebase_url": "https://wtriviaf.firebaseio.com",
+    "project_id": "wtriviaf",
+    "storage_bucket": "wtriviaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628278228628:android:1c2d9a203c951749",
+        "android_client_info": {
+          "package_name": "com.wtf.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628278228628-i1mkjokge3sqo4s4nc1m1grkdsga5vbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfY4SDG3ytrsxHPeMv4rWY0ekr01UYMNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

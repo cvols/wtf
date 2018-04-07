@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.m \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FirebaseFirestore.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRCollectionReference.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRQuery.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRListenerRegistration.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRDocumentChange.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRDocumentReference.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRDocumentSnapshot.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRFieldPath.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRFieldValue.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRFirestore.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRFirestoreErrors.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRFirestoreSettings.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRGeoPoint.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRQuerySnapshot.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRSetOptions.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRSnapshotMetadata.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRTransaction.h \
+  ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRWriteBatch.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestore.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreDocumentReference.h \
+  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h
