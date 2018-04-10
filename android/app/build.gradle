@@ -148,6 +148,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-splash-screen')
     compile project(':react-native-vector-icons')
     // react-native-google-signin
     compile(project(':react-native-google-signin')) {

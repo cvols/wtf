@@ -6,7 +6,7 @@
 <string>Apple LLVM version 9.1.0 (clang-902.0.39.1)</string>
  <key>files</key>
  <array>
-  <string>/Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native/React/Base/RCTModuleMethod.mm</string>
+  <string>/Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native/React/Base/RCTModuleMethod.mm</string>
  </array>
  <key>diagnostics</key>
  <array>

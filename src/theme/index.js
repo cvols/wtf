@@ -5,7 +5,7 @@
  * the application will be updated throughout.
  */
 
-export const PRIMARY = 'blue';
+export const PRIMARY = '#4F6D7A';
 
 export const BORDER_COLOR = '#ccc';
 export const BORDER_COLOR_DARK = '#999';
