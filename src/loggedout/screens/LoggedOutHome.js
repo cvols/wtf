@@ -1,18 +1,12 @@
-/**
- * @flow
- *
- * The Logged Out Home screen is a simple screen allowing the user to choose whether to login or
- * register.
- */
-import React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
-import type { NavigationScreenProp } from 'react-navigation/src/TypeDefinition';
+import React from 'react'
+import { Image, StyleSheet, Text, View } from 'react-native'
+import type { NavigationScreenProp } from 'react-navigation/src/TypeDefinition'
 
-import Button from '../../ui/components/Button';
-import LinkButton from '../../ui/components/LinkButton';
-import Screen from '../../ui/components/Screen';
+import Button from '../../ui/components/Button'
+import LinkButton from '../../ui/components/LinkButton'
+import Screen from '../../ui/components/Screen'
 
-import RNFirebaseLogo from '../../../assets/RNFirebase512x512.png';
+import RNFirebaseLogo from '../../../assets/wtfLogo.png'
 
 /*
  * We use flow type to validate the Props of the component
@@ -21,7 +15,57 @@ type Props = {
   navigation: NavigationScreenProp<*, *>,
 }
 
-const styles = StyleSheet.create({
+class Home extends React.Component<Props> {
+  static navigationOptions = {
+    header: null,
+  }
+
+  onLogin = () => {
+    // Navigate to the Login screen
+    this.props.navigation.navigate('Login')
+  }
+
+  onSignUp = () => {
+    // Navigate to the SignUp screen
+    this.props.navigation.navigate('SignUp')
+  }
+
+  render() {
+    const { 
+      container, 
+      image, 
+      linkContainer, 
+      loginOptions, 
+      signUpText, 
+      welcome, 
+      welcomeText 
+    } = styles
+
+    return (
+      <Screen>
+        <View style={welcome}>
+          <Image source={RNFirebaseLogo} style={image} />
+          <Text style={welcomeText}>
+            Wine, Trivia and Friends!
+          </Text>
+        </View>
+        <View style={loginOptions}>
+          <Button
+            onPress={this.onLogin}
+            text="Login"
+          />
+          <LinkButton
+            containerStyle={linkContainer}
+            onPress={this.onSignUp}>
+            <Text>Don't have an account yet? <Text style={signUpText}>Sign Up</Text></Text>
+          </LinkButton>
+        </View>
+      </Screen>
+    )
+  }
+}
+
+const styles = {
   container: {
     flex: 1,
   },
@@ -35,6 +79,7 @@ const styles = StyleSheet.create({
   },
   loginOptions: {
     padding: 8,
+    backgroundColor: '#AD725F'
   },
   signUpText: {
     fontWeight: '700',
@@ -44,57 +89,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 24,
+    backgroundColor: '#AD725F'
   },
   welcomeText: {
     fontSize: 20,
     marginTop: 24,
     textAlign: 'center',
   },
-});
-
-export default class Home extends React.Component<Props> {
-  // Set the navigation options for `react-navigation`
-  static navigationOptions = {
-    header: null,
-  };
-
-  render() {
-    return (
-      <Screen>
-        <View style={styles.welcome}>
-          <Image source={RNFirebaseLogo} style={styles.image} />
-          <Text style={styles.welcomeText}>
-            Welcome to the React Native Firebase Auth Starter Kit
-          </Text>
-        </View>
-        <View style={styles.loginOptions}>
-          <Button
-            onPress={this.onLogin}
-            text="Login"
-          />
-          <LinkButton
-            containerStyle={styles.linkContainer}
-            onPress={this.onSignUp}>
-            <Text>Don't have an account yet? <Text style={styles.signUpText}>Sign Up</Text></Text>
-          </LinkButton>
-        </View>
-      </Screen>
-    );
-  }
-
-  /**
-   * Called when the Login button is pressed
-   */
-  onLogin = () => {
-    // Navigate to the Login screen
-    this.props.navigation.navigate('Login');
-  }
-
-  /**
-   * Called when the Sign Up button is pressed
-   */
-  onSignUp = () => {
-    // Navigate to the SignUp screen
-    this.props.navigation.navigate('SignUp');
-  }
 }
+
+export default Home
+
+
+

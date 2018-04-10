@@ -16,6 +16,7 @@ import store from './redux/store';
 import LoadingModal from './ui/components/LoadingModal';
 import LoggedIn from './loggedin/screens';
 import LoggedOut from './loggedout/screens';
+import WelcomeScreen from './welcome/screens/WelcomeScreen'
 
 // Configure `react-native-google-signin` with our client IDs
 GoogleSignin.configure({
@@ -23,11 +24,11 @@ GoogleSignin.configure({
   webClientId: GOOGLE_SIGN_IN_ANDROID_CLIENT_ID,
 });
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
     flex: 1,
   },
-});
+}
 
 /*
  * We use flow type to validate the State of the component
@@ -56,7 +57,7 @@ export default class App extends React.Component<*, State> {
    * in Firebase.
    * Once subscribed, the 'user' parameter will either be null (logged out) or an Object (logged in)
    */
-  componentDidMount() {
+  componentDidMount() { 
     this.authSubscription = firebase.auth().onAuthStateChanged((user) => {
       this.setState({
         loading: false,
@@ -92,7 +93,7 @@ export default class App extends React.Component<*, State> {
       <Provider store={store}>
         <View style={styles.container}>
           <LoadingModal />
-          {this.state.user ? <LoggedIn /> : <LoggedOut />}
+          {this.state.user ? <LoggedIn /> : <WelcomeScreen />}
         </View>
       </Provider>
     );

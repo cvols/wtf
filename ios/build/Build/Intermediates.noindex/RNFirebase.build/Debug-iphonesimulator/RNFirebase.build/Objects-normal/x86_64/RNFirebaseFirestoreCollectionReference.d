@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.m \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.m \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.h \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FirebaseFirestore.h \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRCollectionReference.h \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRQuery.h \
@@ -19,15 +19,15 @@ dependencies: \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRSnapshotMetadata.h \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRTransaction.h \
   ../../../ios/Pods/Headers/Public/FirebaseFirestore/FirebaseFirestore/FIRWriteBatch.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestore.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreDocumentReference.h \
-  /Users/christophervolonnino/Desktop/projects/react-native-firebase-starter-auth-master-667b9c60cf735e23566a7cf52cd13bee59dec3d0/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestore.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreDocumentReference.h \
+  /Users/christophervolonnino/Desktop/projects/wtf/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h

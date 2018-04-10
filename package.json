@@ -38,6 +38,7 @@
     "react-native-firebase": "^3.2.2",
     "react-native-google-signin": "git+https://github.com/invertase/react-native-google-signin.git#v0.12.1",
     "react-native-root-toast": "^2.2.0",
+    "react-native-swiper": "^1.5.13",
     "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.19",
     "react-redux": "^5.0.6",
